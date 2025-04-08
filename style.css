@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.menu{
+    background-color: #00000000;
+    backdrop-filter: blur(20px);
+    padding: 5px 20px;
+    border-radius: 20px;
+    position: fixed;
+    top: 2%;
+    z-index: 3;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+#s1{
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.123)10%, rgba(0,0,0,0.123)10%), url(assets/pexels-francesco-ungaro-2835436\ 1.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#s2{
+    height: 100vh;
+    background: #172633;
+    box-sizing: border-box;
+}
+
+
+#s3{
+    height: 100vh;
+    background: #0D151C;
+    box-sizing: border-box;
+}
+
+#s4{
+    height: 90vh;
+    background: #000000;
+    box-sizing: border-box;
+}
+
+
+#s5{
+    height: 90vh;
+    background: #5f96e9;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.menu{
+    
+    backdrop-filter: blur(20px);
+    padding: 5px 20px;
+    border-radius: 20px;
+    position: fixed;
+    top: 2%;
+    z-index: 3;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+ul h1{
+    color: #ffffff;
+}
+
+ul li{
+    font-weight: lighter;
+    list-style: none;
+    margin: 8px;
+    font-size: 19px; 
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    color: #EDD4B6;
+}
+
+
+
+
+
+
+
+
